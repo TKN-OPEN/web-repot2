@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>位置情報検索サイト</title>
+    <style>
+      
+    </style>
+  </head>
+
+  <body>
+    <div id="header"><b>Google Maps - 場所検索</b></div>
+  <div class="pv">
+    <script src="main.js"></script>
+    
+    <div class="p">施設名称検索 （例：近場のスタバ、図書館、カフェなど）</div>
+    <div class="p">
+        <input type="text"  id="keyword"><button  id="search">検索実行</button>
+        <button id="clear">結果クリア</button>
+    </div>
+    <div class="container" id="target"></div>
+
+    <script src="https://maps.googleapis.com/maps/api/js?language=ja&region=JP&key=AIzaSyAYvA7EsSaFRf20DmN0ibRWlF2jouuSMiU&callback=initMap" async defer></script>
+
+    <audio id="bgm1" preload loop>
+
+        <source src="Feather_of_the_Angel.mp3" type="audio/mp3">
+    </audio>
+
+    <button class="oto" id="btn-play" type="button" >再生<i class="fas fa-play"></i></button>左にあるボタンから音楽再生しながら検索できます。もう一度押すと再生が止まります。是非聞きながら検索してください。
+    <script src="main2.js"></script>
+    </div>
+    <div class="pvp">
+        <p>日本大学文理学部情報科学科 Webプログラミングの演習課題</p>
+    </div>
+    
+  </body>
+</html>

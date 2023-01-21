@@ -1,0 +1,46 @@
+body{
+    background-color: aqua;
+}
+
+.text-large{
+    width: 50%;
+}
+
+#header {
+    background-color: rgb(118, 139, 0);
+    text-align: center;
+    padding: 10px;
+    width: 1200px;
+    font-family: Meriyo UI;
+    font-size: 30px;
+    color: white;
+    margin: 0 auto;
+}
+#target {
+  width: 600px;
+  height: 600px;
+}
+
+.container{
+margin: 0 auto;
+}
+
+.oto{
+    width: 10em;
+    height: 3em;
+}
+
+.p{
+    text-align: center;
+}
+
+.pv{
+    background-color: white;
+    margin: 0em 3em 0em 3em;
+}
+
+.pvp{
+    background-color: rgb(255, 127, 210);
+    font-size: 30px;
+    text-align: center;
+}
